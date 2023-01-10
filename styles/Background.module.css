@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -3;
+}
+
+.image {
+  filter: opacity(70%) brightness(80%) blur(1px);
+  z-index: -1;
+}
