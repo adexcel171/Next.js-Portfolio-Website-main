@@ -56,21 +56,17 @@ function AboutPage() {
               JavaScript developer.
             </p>
             <div className={styles.icons}>
-              <Link href="https://www.linkedin.com/in/mariusz-golik-712482258/">
+              <Link href="https://www.linkedin.com/in/godswill-okenyi-b9432323b/">
                 <a target="_blank" rel="noreferrer">
                   <GrLinkedin className={styles.icon} />
                 </a>
               </Link>
-              <Link href="https://github.com/MarioG8">
+              <Link href="https://github.com/adexcel171">
                 <a target="_blank" rel="noreferrer">
                   <FaGithub className={styles.icon} />
                 </a>
               </Link>
-              <Link href="https://stackoverflow.com/users/13705979/mariog8">
-                <a target="_blank" rel="noreferrer">
-                  <FaStackOverflow className={styles.icon} />
-                </a>
-              </Link>
+             
               <Link href="godwillokenyi@gmail.com">
                 <a>
                   <GiMailbox className={styles.icon} />
@@ -79,15 +75,15 @@ function AboutPage() {
             </div>
           </div>
           <div className={styles.about_img_wrapper}>
-            {/* <Image
-              src="/images/"
+            <Image
+              src="/images/admire logo.jpg"
               alt="Awesome handsome blond man in sunglasses. In the background a reed "
-              height={700}
-              width={475}
+              height={150}
+              width={150}
               objectFit="cover"
               quality={100}
               className={styles.about_image}
-            /> */}
+            />
           </div>
         </div>
         <div className={styles.about_header_two}>
