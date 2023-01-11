@@ -77,7 +77,7 @@ function AboutPage() {
           <div className={styles.about_img_wrapper}>
             <Image
               src="/images/admire logo.jpg"
-              alt="Awesome handsome blond man in sunglasses. In the background a reed "
+              alt="admire excel logo "
               height={150}
               width={150}
               objectFit="cover"
