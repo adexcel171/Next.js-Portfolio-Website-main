@@ -22,14 +22,14 @@ function Header(props) {
       <nav className={menu ? "menu" : "menu show"}>
         <div className={menu ? "menu-branding" : "menu-branding show"}>
           <div className="portrait-img-2">
-            {/* <Image
-              src="/images/"
-              width={280}
-              height={400}
+            <Image
+              src="/images/admire logo.jpg"
+              width={250}
+              height={300}
               quality={100}
               className="portrait-img"
-              alt="Handsome blond man in suit"
-            /> */}
+              alt="Excel logo"
+            />
           </div>
         </div>
         <ul className={menu ? "menu-nav" : "menu-nav show"}>

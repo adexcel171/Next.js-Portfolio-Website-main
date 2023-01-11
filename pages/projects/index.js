@@ -16,7 +16,7 @@ function ProjectsPage() {
       </div>
       <main className={styles.projects_container}>
         <Card
-          // img="/images/thunder.jpg"
+          img="/images/thunder.jpg"
           date="25 Oct 2020"
           lang="Html, CSS, JavaScript"
           title="Weather App"
@@ -27,7 +27,7 @@ function ProjectsPage() {
         />
        
         <Card
-          // img="/images/"
+          img="/images/online school.jpg"
           date="5 May 2021"
           lang="React.js, Css"
           title="Online school Website"
@@ -37,7 +37,7 @@ function ProjectsPage() {
           git="https://github.com/adexcel171/Online-Education"
         />
         <Card
-          // img="/images/404_006.jpg"
+          img="/images/404_006.jpg"
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
@@ -47,13 +47,24 @@ function ProjectsPage() {
         />
        
         <Card
-          // img="/images/"
+          img="/images/Task-manager.jpg"
+     
           date="18 July 2021"
           lang="React"
           title="Task Tracker"
           description="Task Tracker  application built with React. It has four basic functionality: Create, Read, Update and Delete."
           link="https://excel-task-tracker.netlify.app/"
           git="https://github.com/adexcel171/task-project/tree/main/task"
+        />
+        <Card
+          img="/images/wine-pic.jpg"
+     
+          date="18 July 2021"
+          lang="React"
+          title="Wine Restaurant"
+          description="wine/cocktail website ui built with next.js"
+          link="https://excel-menu.netlify.app/"
+          git="https://github.com/adexcel171/"
         />
        
         

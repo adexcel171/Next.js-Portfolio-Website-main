@@ -250,8 +250,9 @@ a {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait-img-2 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 3px;
   }
 }
 

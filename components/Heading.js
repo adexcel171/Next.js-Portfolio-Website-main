@@ -14,26 +14,23 @@ function Header() {
         Full Stack Web Developer (MERN STACK)
       </h2>
       <div className={styles.icons}>
-        <Link href="">
+        <Link href="https://www.linkedin.com/in/godswill-okenyi-b9432323b/">
           <a target="_blank" rel="noreferrer">
             <FaLinkedin className={styles.icon} />
           </a>
         </Link>
-        <Link href="https://github.com/MarioG8">
+        <Link href="https://github.com/adexcel171">
           <a target="_blank" rel="noreferrer">
             <FaGithub className={styles.icon} />
           </a>
         </Link>
-        <Link href="https://stackoverflow.com/users/13705979/mariog8">
-          <a target="_blank" rel="noreferrer">
-            <FaStackOverflow className={styles.icon} />
-          </a>
-        </Link>
-        <Link href="godwillokenyi@yahoo.com">
+        
+        <Link href="godwillokenyi@gmail.com">
           <a>
             <GiMailbox className={styles.icon} />
           </a>
         </Link>
+       
       </div>
     </main>
   );
