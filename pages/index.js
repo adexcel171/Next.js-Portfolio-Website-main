@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Home Page | Portfolio</title>
+        <title>Godswill Okenyi Portfolio</title>
         <meta name="description" content="Portfolio Mariusz Golik, Home page" />
       </Head>
       <Heading />
