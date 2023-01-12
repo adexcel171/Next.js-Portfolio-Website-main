@@ -10,15 +10,19 @@ function Header(props) {
 
   return (
     <header>
+
       <div
         className={menu ? "menu-btn" : "menu-btn close"}
         onClick={openMenuHandler}
+   
+
       >
         <div className="btn-line"></div>
         <div className="btn-line"></div>
         <div className="btn-line"></div>
-      </div>
+        <span>Menu</span>
 
+      </div>
       <nav className={menu ? "menu" : "menu show"}>
         <div className={menu ? "menu-branding" : "menu-branding show"}>
           <div className="portrait-img-2">

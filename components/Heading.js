@@ -1,5 +1,5 @@
 import styles from "@/styles/Heading.module.css";
-import { FaGithub, FaStackOverflow, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaStackOverflow, FaLinkedin,FaTwitter} from "react-icons/fa";
 import { GiMailbox, GrLinkedin } from "react-icons/gi";
 import Link from "next/link";
 
@@ -8,7 +8,7 @@ function Header() {
     <main className={styles.header}>
       <h1 className="lg-heading">
         Godswill
-        <span className={styles.textSecondary}> Okenyi</span>
+        <span className={styles.header}> Okenyi</span>
       </h1>
       <h2 className="sm-heading">
         Full Stack Web Developer (MERN STACK)
@@ -28,6 +28,11 @@ function Header() {
         <Link href="godwillokenyi@gmail.com">
           <a>
             <GiMailbox className={styles.icon} />
+          </a>
+        </Link>
+        <Link href="https://twitter.com/iam_donzzy">
+          <a>
+            <FaTwitter className={styles.icon} />
           </a>
         </Link>
        
