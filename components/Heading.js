@@ -8,7 +8,7 @@ function Header() {
     <main className={styles.header}>
       <h1 className="lg-heading">
         Godswill
-        <span className={styles.header}> Okenyi</span>
+        <span className={styles.textSecondary}> Okenyi</span>
       </h1>
       <h2 className="sm-heading">
         Full Stack Web Developer (MERN STACK)

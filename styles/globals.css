@@ -10,7 +10,7 @@
   --alternative-color-four: rgba(102, 31, 225, 0.705);
   --alternative-color-five: #0751a5;
   --alternative-color-six: rgba(255, 0, 0, 0.777);
-  --header-color-one: #1e9add;
+  --header-color-one: #e1f8e7;
   --primary-text-color: rgba(199, 199, 199, 0.842);
   --secondary-text-color: rgb(175, 31, 156);
   --alternative-text-color: rgba(200, 200, 200, 0.843);
@@ -19,7 +19,7 @@
   --secondary-link-color: rgba(200, 200, 200, 0.8);
 
   --clr-neutral-900: hsl(207, 19%, 9%);
-  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-100: hsl(216, 92%, 67%);
   --clr-accent-100: hsl(142, 90%, 61%);
 }
 
