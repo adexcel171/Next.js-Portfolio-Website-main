@@ -16,7 +16,6 @@
 
 .icons {
   position: relative;
-  margin-top: 1rem;
 }
 
 .icons :not(:last-of-type) {
@@ -24,10 +23,10 @@
 }
 
 .icon {
-  color: var(--alternative-text-color);
+  /* color: var(--alternative-text-color); */
   cursor: pointer;
   transition: all 0.5s ease-out;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .icon:hover {

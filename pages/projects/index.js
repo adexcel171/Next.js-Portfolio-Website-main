@@ -41,20 +41,22 @@ function ProjectsPage() {
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
-          description="Fully Responsive Website Built with Next.js(newest technology based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
-          link="/"
-          git="https://github.com/"
+          description="Fully Responsive Website Built with Next.js(newest technology based on React.js) and react icons library.
+           Personal portfolio page, about my biggest passion (programing, web development)."
+          link="https://godswillokenyi-excel.vercel.app/"
+          git="https://github.com/adexcel171/Next.js-Portfolio-Website-main"
         />
        
    
         <Card
-          img="/images/404_006.jpg"
+          img="/images/blog.jpg"
           date="15 June 2021"
-          lang="Next.js"
+          lang="MERN STACK"
           title="Excel Blog"
-          description="Fully Responsive Website Built with Next.js(newest technology based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
-          link="/"
-          git="https://github.com/"
+          description="Fully Responsive Website Built with MERN.
+           it has login system and the full crude functionality of a full stack website"
+          link="https://excel-blog.netlify.app/"
+          git="https://github.com/blog"
         />
        
    
@@ -76,7 +78,7 @@ function ProjectsPage() {
           title=" Xcel$ e commerce website"
           description="E commerce website built with mern stack."
           link="https://excel-shop.netlify.app/"
-          git="https://github.com/adexcel171/"
+          git="https://github.com/adexcel171/client"
         />
         <Card
           img="/images/cusine.jpg"
