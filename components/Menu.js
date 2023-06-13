@@ -45,6 +45,13 @@ function Header(props) {
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
+            <Link href="http://adexcel.hashnode.dev">
+              <a className="nav-link" onClick={closeMenuHandler}>
+                blog
+              </a>
+            </Link>
+          </li>
+          <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/about">
               <a className="nav-link" onClick={closeMenuHandler}>
                 about me
