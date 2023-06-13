@@ -36,7 +36,7 @@ function ContactPage() {
             icon={<IoMdMail size={45} />}
           />
           <Item
-            img="/images/"
+            img="/images/address.png"
             title="Abuja Nigeria"
             subtitle="Address"
             icon={<ImAddressBook size={45} />}
