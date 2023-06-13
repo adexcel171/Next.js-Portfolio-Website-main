@@ -1,9 +1,13 @@
 import styles from "@/styles/Heading.module.css";
+
 import { FaGithub, FaStackOverflow, FaLinkedin,FaTwitter} from "react-icons/fa";
+
 import { GiMailbox, GrLinkedin } from "react-icons/gi";
 import Link from "next/link";
 
-function Header() {
+function Header()
+
+{
   return (
     <main className={styles.header}>
       <h1 className="lg-heading">
@@ -37,6 +41,8 @@ function Header() {
         </Link>
        
       </div>
+    
+    
     </main>
   );
 }
