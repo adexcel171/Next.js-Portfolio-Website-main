@@ -46,16 +46,7 @@ function ProjectsPage() {
           git="https://github.com/"
         />
        
-        <Card
-          img="/images/Task-manager.jpg"
-     
-          date="18 July 2021"
-          lang="React"
-          title="Task Tracker"
-          description="Task Tracker  application built with React. It has four basic functionality: Create, Read, Update and Delete."
-          link="https://excel-task-tracker.netlify.app/"
-          git="https://github.com/adexcel171/task-project/tree/main/task"
-        />
+   
         <Card
           img="/images/wine-pic.jpg"
      
@@ -64,6 +55,26 @@ function ProjectsPage() {
           title="Wine Restaurant"
           description="wine/cocktail website ui built with next.js"
           link="https://excel-menu.netlify.app/"
+          git="https://github.com/adexcel171/"
+        />
+        <Card
+          img="/images/e commerce.jpg"
+     
+          date="31 dec 2022"
+          lang=" MERN STACK"
+          title=" Xcel$ e commerce website"
+          description="E commerce website built with mern stack."
+          link="https://excel-shop.netlify.app/"
+          git="https://github.com/adexcel171/"
+        />
+        <Card
+          img="/images/cusine.jpg"
+     
+          date="11 Feb 2023"
+          lang="React"
+          title="Excel Cuisine"
+          description="beautiful fast food resturant made with Ractjs and  Tailwind css for styling"
+          link="https://excel-cuisine.netlify.app/"
           git="https://github.com/adexcel171/"
         />
        
