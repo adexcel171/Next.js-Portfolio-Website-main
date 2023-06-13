@@ -16,22 +16,22 @@ function ProjectsPage() {
       </div>
       <main className={styles.projects_container}>
         <Card
-          img="/images/thunder.jpg"
-          date="25 Oct 2020"
+          img="/images/hotel.jpg"
+          date="20 march 2023"
           lang="Html, CSS, JavaScript"
-          title="Weather App"
-          description="Weather App built with  Html, Css, and Vanilla JavaScript, external Api from openweathermap.org
-          Daily weather(cloudiness, temp) around the world, for the city selected by the user."
-          link="https://weather-app-excel.netlify.app/"
-          git="https://github.com/adexcel171/Weather-App-main"
+          title="hotel website"
+          description="hotel web built with  Html, Css, and Vanilla JavaScript."
+          link="https://excel-hotel.netlify.app/"
+          git="https://github.com/adexcel171/hotel-ui-2023"
         />
+       
        
         <Card
           img="/images/online school.jpg"
           date="5 May 2021"
           lang="React.js, Css"
           title="Online school Website"
-          description="Full Responsive React website built with React.js, React icons, scroll, and React router."
+          description="Full Responsive React website built with React.js."
           link="https://excelonline-education.netlify.app/"
 
           git="https://github.com/adexcel171/Online-Education"
@@ -41,6 +41,17 @@ function ProjectsPage() {
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
+          description="Fully Responsive Website Built with Next.js(newest technology based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
+          link="/"
+          git="https://github.com/"
+        />
+       
+   
+        <Card
+          img="/images/404_006.jpg"
+          date="15 June 2021"
+          lang="Next.js"
+          title="Excel Blog"
           description="Fully Responsive Website Built with Next.js(newest technology based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
           link="/"
           git="https://github.com/"
@@ -75,7 +86,7 @@ function ProjectsPage() {
           title="Excel Cuisine"
           description="beautiful fast food resturant made with Ractjs and  Tailwind css for styling"
           link="https://excel-cuisine.netlify.app/"
-          git="https://github.com/adexcel171/"
+          git="https://github.com/adexcel171/fast-food"
         />
        
         
