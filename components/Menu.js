@@ -20,12 +20,12 @@ function Header(props) {
         <div className="btn-line"></div>
         <div className="btn-line"></div>
         <div className="btn-line"></div>
-        <span>Menu</span>
+      
 
       </div>
       <nav className={menu ? "menu" : "menu show"}>
         <div className={menu ? "menu-branding" : "menu-branding show"}>
-          <div className="portrait-img-2">
+          {/* <div className="portrait-img-2">
             <Image
               src="/images/admire logo.jpg"
               width={250}
@@ -34,7 +34,7 @@ function Header(props) {
               className="portrait-img"
               alt="Excel logo"
             />
-          </div>
+          </div> */}
         </div>
         <ul className={menu ? "menu-nav" : "menu-nav show"}>
           <li className={menu ? "nav-item" : "nav-item show"}>

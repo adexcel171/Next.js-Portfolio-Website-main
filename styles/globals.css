@@ -1,8 +1,8 @@
 :root {
   --primary-color: rgb(23, 116, 167);
   --secondary-color: #0751a5;
-  --background-color-one: #373737;
-  --background-color-two: #444444;
+  --background-color-one: #181717;
+  --background-color-two: #161616;
   --background-color-three: rgba(12, 213, 248, 0.12);
   --alternative-color: #6724b1;
   --alternative-color-two: #c5c5c5;
@@ -16,7 +16,7 @@
   --alternative-text-color: rgba(200, 200, 200, 0.843);
   --alternative-text-color-two: #374151;
   --primary-link-color: rgb(0, 0, 238);
-  --secondary-link-color: rgba(200, 200, 200, 0.8);
+  --secondary-link-color: rgba(247, 242, 242, 0.8);
 
   --clr-neutral-900: hsl(207, 19%, 9%);
   --clr-neutral-100: hsl(216, 92%, 67%);
@@ -95,7 +95,7 @@
 }
 
 .portrait-img {
-  filter: contrast(120%);
+  /* filter: contrast(120%); */
   border-radius: 5px;
 }
 .menu .nav-item {
