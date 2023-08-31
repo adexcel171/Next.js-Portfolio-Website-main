@@ -3,7 +3,7 @@
   --secondary-color: #0751a5;
   --background-color-one: #181717;
   --background-color-two: #161616;
-  --background-color-three: rgba(12, 213, 248, 0.12);
+  --background-color-three: rgba(161, 176, 179, 0.12);
   --alternative-color: #6724b1;
   --alternative-color-two: #c5c5c5;
   --alternative-color-three: #8eef9e;
@@ -24,6 +24,7 @@
 }
 
 .menu-btn {
+  
   position: absolute;
   z-index: 3;
   right: 50px;
@@ -33,6 +34,7 @@
 }
 
 .menu-btn .btn-line {
+  display: none;
   width: 46px;
   height: 2px;
   margin: 0 0 9px 0;
@@ -184,6 +186,8 @@ h3.sm-heading {
   background: var(--background-color-three);
   border-radius: 3px;
   color: var(--alternative-color-two);
+  border-radius: 16px;
+  
 }
 
 a {
@@ -254,6 +258,17 @@ a {
     height: 100px;
     margin-bottom: 3px;
   }
+ 
+  .menu-btn .btn-line {
+    display: block;
+    width: 46px;
+    height: 2px;
+    margin: 0 0 9px 0;
+    background: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
