@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Navbar from "./Navbar";
 
 function Header(props) {
   const [menu, setShowMenu] = useState(true);
@@ -10,6 +11,7 @@ function Header(props) {
 
   return (
     <header>
+      <Navbar/>
 
       <div
         className={menu ? "menu-btn" : "menu-btn close"}
@@ -25,7 +27,7 @@ function Header(props) {
       </div>
       <nav className={menu ? "menu" : "menu show"}>
         <div className={menu ? "menu-branding" : "menu-branding show"}>
-          {/* <div className="portrait-img-2">
+          <div className="portrait-img-2">
             <Image
               src="/images/admire logo.jpg"
               width={250}
@@ -34,7 +36,7 @@ function Header(props) {
               className="portrait-img"
               alt="Excel logo"
             />
-          </div> */}
+          </div>
         </div>
         <ul className={menu ? "menu-nav" : "menu-nav show"}>
           <li className={menu ? "nav-item" : "nav-item show"}>
