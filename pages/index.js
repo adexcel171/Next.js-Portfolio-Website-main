@@ -4,6 +4,7 @@ import AboutPage from "./about";
 import ProjectsPage from "./projects";
 import BootcampsPage from "./bootcamps";
 import ContactPage from "./contact";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <ProjectsPage/>
       <BootcampsPage/>
       <ContactPage/>
+      <Footer/>
     </>
   );
 }
