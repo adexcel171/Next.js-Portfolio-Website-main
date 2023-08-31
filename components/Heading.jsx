@@ -40,7 +40,7 @@ function Header()
           </a>
         </Link>
        
-        <Link href="https://twitter.com/iam_donzzy">
+        <Link href="https://wa.link/4lt8cc">
           <a>
             <FaWhatsapp className={styles.icon} />
           </a>
