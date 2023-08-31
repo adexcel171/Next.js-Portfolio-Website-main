@@ -8,7 +8,9 @@
 .header h1 {
   margin-top: 25vh;
 }
-
+#lottie{
+  width: 200px;
+}
 .textSecondary {
   color: var(--header-color-one);
   text-shadow: 1px 3px 4px var(--header-color-one);

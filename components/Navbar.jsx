@@ -3,6 +3,7 @@ import React from 'react'
 import styles from "@/styles/Navbar.module.css";
 
 import logo from '../public/images/admire logo.jpg'
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -13,11 +14,14 @@ const Navbar = () => {
         </div>
         <div>
             <ul className={styles.navLinks} >
-                <li className={styles.navItems} >Home </li>
-                <li className={styles.navItems}>Blog </li>
-                <li className={styles.navItems} >About me </li>
-                <li className={styles.navItems}>Projects </li>
-                <li className={styles.navItems}>Contact </li>
+                <li   className={styles.navItems} > <Link href='/' >Home</Link> </li>
+                <li className={styles.navItems}>  <Link href='/http://adexcel.hashnode.dev'>Blog</Link></li>
+                <li   className={styles.navItems} > <Link href='/about' >About Me</Link> </li>
+                <li   className={styles.navItems} > <Link href='/projects' >Projects</Link> </li>
+                <li   className={styles.navItems} > <Link href='/bootcamps' >Bootcamps</Link> </li>
+                <li   className={styles.navItems} > <Link href='/contact' >Contact</Link> </li>
+
+            
             </ul>
         </div>
       

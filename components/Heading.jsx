@@ -4,12 +4,14 @@ import { FaGithub, FaWhatsapp, FaLinkedin,FaTwitter} from "react-icons/fa";
 
 import { GiMailbox, GrLinkedin } from "react-icons/gi";
 import Link from "next/link";
+import Background from "./Background";
 
 function Header()
 
 {
   return (
     <main className={styles.header}>
+      
       <h1 className="lg-heading">
         Godswill
         <span className={styles.textSecondary}> Okenyi</span>
@@ -17,6 +19,10 @@ function Header()
       <h2 className="sm-heading">
         Full Stack Web Developer (MERN STACK)
       </h2>
+      <div id="lottie">
+
+      </div>
+
       <div className={styles.icons}>
         <Link href="https://www.linkedin.com/in/godswill-okenyi-b9432323b/">
           <a target="_blank" rel="noreferrer">
@@ -47,7 +53,6 @@ function Header()
         </Link>
        
       </div>
-      
     
     </main>
   );
