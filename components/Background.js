@@ -1,18 +1,14 @@
 import Image from "next/image";
 import styles from "@/styles/Background.module.css";
+import Lottie from 'lottie-react'
+import animationData from '../public/images/animation_lltdrpj1 (1).json'
 
 function Background() {
   return (
     <div className={styles.container}>
-      <Image
-        src="/images/404_006.jpg"
-        alt="Code on the laptop computer, red keyboard backlight"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="50% 79%"
-        quality={100}
-        className={styles.image}
-      />
+      <Lottie  animationData={animationData} />
+      
+     
     </div>
   );
 }
